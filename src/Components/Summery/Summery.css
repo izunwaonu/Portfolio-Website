@@ -1,0 +1,45 @@
+#summery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+.summery-heading{
+    width: 100%;
+    max-width: 470px;
+}
+.summery-heading strong{
+    font-size: 1rem;
+    color: var(--blueColor);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.summery-heading h2{
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 20px 0;
+
+}
+.summery-details{
+    width: 100%;
+    /* max-width: 480px; */
+    border: 1px dashed var(--grayColor);
+    padding: 15px 20px;
+}
+.summery-details p{
+    color: var(--grayColor);
+}
+@media (max-width:865px) {
+    #summery{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .summery-heading,
+    .summery-details{
+        max-width: none;
+    }
+    .summery-details{
+        margin-top: 30px;
+    }
+}

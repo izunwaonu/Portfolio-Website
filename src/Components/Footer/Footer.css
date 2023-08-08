@@ -1,0 +1,37 @@
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+footer span {
+    color: var(--grayColor);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+footer i {
+    color: var(--whiteColor);
+    margin: 0 15px;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+footer i:hover{
+    text-shadow: 0 0 10px var(--whiteColor);
+}
+footer .footer-logo{
+    color: var(--whiteColor);
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 600px) {
+    footer{
+        flex-direction: column-reverse;
+        align-items: center;  
+    }
+    
+}

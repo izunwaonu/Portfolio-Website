@@ -1,0 +1,30 @@
+#languages{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    position: relative;
+}
+.languages-box h3{
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.languages-box ul{
+    display: flex;
+    background: rgba(0,0,0,0.08);
+    padding: 10px 15px;
+    margin-top: 10px;
+    list-style: none;
+
+}
+.languages-box ul li{
+    color: var(--grayColor);
+    margin-right: 15px;
+    margin-top: 4px;
+    
+}
+@media (max-width:865px) {
+    #languages  {
+        grid-template-columns: 1fr;
+    }
+    }

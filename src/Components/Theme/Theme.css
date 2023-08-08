@@ -1,0 +1,18 @@
+#theme{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 95px;
+    right: 25px;
+    z-index: 999;
+    cursor: pointer;
+}
+#theme i {
+    color: var(--whiteColor);
+    font-size: 2rem;
+    text-shadow: 0 0 10px var(--whiteColor);
+}

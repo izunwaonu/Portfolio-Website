@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+  --bgColor: #162052;
+  --whiteColor: #fff;
+  --grayColor: #bbb;
+  --blueColor: #689af8;
+}
+/* :root{
+  --bgColor: #fdfdfd;
+  --whiteColor: #000;
+  --grayColor: #bbb;
+  --blueColor: #689af8;
+} */
+*{
+  margin: 0; 
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  background: var(--bgColor);
+  position: relative;
+  color: var(--whiteColor);
+}
+.container{
+  width: 100%;
+  max-width: 1024px;
+  min-height: 100vh;
+  
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 15px;
+  overflow: hidden;
+}
+a{
+  text-decoration: none;
+}
+.btn-link {
+  color: var(--whiteColor);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  border-bottom: 1px solid #689af8;
+  padding: 10px 10px 10px 0;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
+}
+.btn-link:hover{
+  padding: 10px;
+  background: rgba(104, 154,248, 0.102);
+}
+section{
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+h3{
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+::-webkit-scrollbar{
+  display: none;
+}

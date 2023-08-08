@@ -1,0 +1,24 @@
+#contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#contact strong{
+    color: var(--blueColor);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+#contact h3{
+    font-size: 2.35rem;
+    letter-spacing: 1px;
+}
+#contact p{
+    color: var(--grayColor);
+    /* max-width: 700px; */
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
